@@ -4,9 +4,210 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pollos Hermanos</title>
+    <!-- booptstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/pollo2.jpg" type="image/x-icon">
+
 </head>
 <body>
-    
+    <!-- barra de navegacion -->
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Pollos Hermanos 🐣</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- carrucel de imagen -->
+      <div id="slider1" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#slider1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#slider1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#slider1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <!-- diapositiva de imagen -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/pollo4.jpg" class="d-block w-100" alt="..." style="height: 565px; object-fit: cover ;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded" >
+        <h5>El mejor pollo</h5>
+        <p>lo mejor para usted.</p>
+      </div>
+    </div>
+     <!-- diapositiva de imagen -->
+    <div class="carousel-item">
+      <img src="img/pollo.jpg" class="d-block w-100" alt="..." style="height: 565px; object-fit: cover ;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded ">
+        <h5>El pollo gran amigo</h5>
+        <p>Siempre productos frescos .</p>
+      </div>
+    </div>
+     <!-- diapositiva de imagen -->
+    <div class="carousel-item">
+      <img src="img/pollo2.jpg" class="d-block w-100" alt="..." style="height: 565px; object-fit: cover ;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded" >
+        <h5>Reconocidos mundial mente por nuestro pollos</h5>
+        <p>Nuestros pollos recorren estados,pueblos y paises en todo le mundo.</p>
+      </div>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#slider1" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#slider1" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- ejemplos  -->
+     <section class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <h1>blouque 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae at velit, nesciunt ipsa voluptatum itaque, quod pariatur nam debitis minus assumenda. Similique consectetur nemo aliquid autem quisquam veniam, cum vel!</p>
+            </div>
+            <div class="col-lg-8 col-md-6">
+                <h1>blouque 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam libero eaque fugiat porro repellendus eius, explicabo repellat aperiam, maiores quidem temporibus quasi. Officiis, eveniet quis ea excepturi numquam iusto in?</p>
+            </div>
+        </div>
+     </section>   
+
+     <!-- vaner -->
+      <section class="container my-4">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="img/pollo3.webp" alt="pollo frito" class="img-fluid rounder shadow" >
+            </div>
+            <div class="col-lg-6">
+                <h2>Nuestro pollo faborito</h2>
+                <p class="lead tex-light">Lo mejor de nuesro pollo lo encuentras en Los Pollos hermanos </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, officiis perspiciatis! Repellat eaque accusantium quidem ipsum, eveniet, eius maxime non voluptates cumque incidunt at unde accusamus distinctio voluptas? Dolorem, obcaecati.</p>
+                <div class="d-flex gap-2 flex-wrap"> 
+                    <button type="button" class="btn btn-primary">Ordena Ahora</button>
+                    <button type="button" class="btn btn-secondary">Ver mas </button>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!--  targetas -->
+        <section class="container bg-light py-3">
+            <div class="row">
+                <article class="col lg-3 mt-3">
+                    <div class="card" style="width: 300px;">
+                    <img src="img/pollo4.jpg" alt="pollo" class="card-img-top" >
+                        <div class="card-body">
+                            <h1>pollo Frito</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, ad laborum velit accusantium natus ullam eius totam cupiditate repellendus officiis vel ipsa, rerum itaque aspernatur perferendis suscipit laboriosam tempore a.</p>
+                            <a href="#" class="btn btn-danger">Ordena ahora</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col lg-3 mt-3">
+                    <div class="card" style="width: 300px;">
+                    <img src="img/pollo4.jpg" alt="pollo" class="card-img-top" >
+                        <div class="card-body">
+                            <h1>pollo Frito</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, ad laborum velit accusantium natus ullam eius totam cupiditate repellendus officiis vel ipsa, rerum itaque aspernatur perferendis suscipit laboriosam tempore a.</p>
+                            <a href="#" class="btn btn-danger">Ordena ahora</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col lg-3 mt-3">
+                    <div class="card" style="width: 300px;">
+                    <img src="img/pollo4.jpg" alt="pollo" class="card-img-top" >
+                        <div class="card-body">
+                            <h1>pollo Frito</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, ad laborum velit accusantium natus ullam eius totam cupiditate repellendus officiis vel ipsa, rerum itaque aspernatur perferendis suscipit laboriosam tempore a.</p>
+                            <a href="#" class="btn btn-danger">Ordena ahora</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col lg-3 mt-3">
+                    <div class="card" style="width: 300px;">
+                    <img src="img/pollo4.jpg" alt="pollo" class="card-img-top" >
+                        <div class="card-body">
+                            <h1>pollo Frito</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, ad laborum velit accusantium natus ullam eius totam cupiditate repellendus officiis vel ipsa, rerum itaque aspernatur perferendis suscipit laboriosam tempore a.</p>
+                            <a href="#" class="btn btn-danger">Ordena ahora</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col lg-3 mt-3">
+                    <div class="card" style="width: 300px;">
+                    <img src="img/pollo4.jpg" alt="pollo" class="card-img-top" >
+                        <div class="card-body">
+                            <h1>pollo Frito</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, ad laborum velit accusantium natus ullam eius totam cupiditate repellendus officiis vel ipsa, rerum itaque aspernatur perferendis suscipit laboriosam tempore a.</p>
+                            <a href="#" class="btn btn-danger">Ordena ahora</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col lg-3 mt-3">
+                    <div class="card" style="width: 300px;">
+                    <img src="img/pollo4.jpg" alt="pollo" class="card-img-top" >
+                        <div class="card-body">
+                            <h1>pollo Frito</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, ad laborum velit accusantium natus ullam eius totam cupiditate repellendus officiis vel ipsa, rerum itaque aspernatur perferendis suscipit laboriosam tempore a.</p>
+                            <a href="#" class="btn btn-danger">Ordena ahora</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col lg-3 mt-3">
+                    <div class="card" style="width: 300px;">
+                    <img src="img/pollo4.jpg" alt="pollo" class="card-img-top" >
+                        <div class="card-body">
+                            <h1>pollo Frito</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, ad laborum velit accusantium natus ullam eius totam cupiditate repellendus officiis vel ipsa, rerum itaque aspernatur perferendis suscipit laboriosam tempore a.</p>
+                            <a href="#" class="btn btn-danger">Ordena ahora</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="col lg-3 mt-3">
+                    <div class="card" style="width: 300px;">
+                    <img src="img/pollo4.jpg" alt="pollo" class="card-img-top" >
+                        <div class="card-body">
+                            <h1>pollo Frito</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, ad laborum velit accusantium natus ullam eius totam cupiditate repellendus officiis vel ipsa, rerum itaque aspernatur perferendis suscipit laboriosam tempore a.</p>
+                            <a href="#" class="btn btn-danger">Ordena ahora</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- footer -->
+         <footer class="navbar bg-warning-subtle">
+            <p class="mx-auto"> Derechos reservados &copy; 2026 Pollos Hermanos - Ángel Esteban Pérez Beltran 20240509</p>
+         </footer>
+    <!-- boostrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
